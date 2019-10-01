@@ -1,0 +1,31 @@
+package com.example.nicossubmission;
+
+import java.util.ArrayList;
+
+public class BatikData {
+    public static String[][] data = new String[][]{
+            {"Batik Kraton", "Batik Kraton awal mula dari semua jenis batik yang berkembang di Indonesia. Motifnya mengandung makna filosofi hidup. Batik-batik ini dibuat oleh para putri kraton dan juga pembatik-pembatik ahli yang hidup di lingkungan kraton. Pada dasarnya motifnya terlarang untuk digunakan oleh orang “biasa” seperti motif Batik Parang Barong, Batik Parang Rusak termasuk Batik Udan Liris, dan beberapa motif lainnya.", "https://infobatik.id/wp-content/uploads/2018/02/batik-kraton1-750x430.jpg"},
+            {"Batik Gentongan", "Motif Gentongan berbeda dengan batik lainnya. Batik asal madura ini menggunakan motif abstrak sederhana, tanaman atau kombinasi keduanya. Warna batik Gentongan biasanya mengambil warna terang seperti merah, kuning, hijau, atau ungu. Batik Gentongan sendiri diambil dari gentong, yakni gerabah yang dipakai sebagai wadah untuk mencelup kain batik pada cairan warna.", "https://i2.wp.com/indonesianbatik.id/wp-content/uploads/2018/03/kode-T0001-Rp-150.000.jpg?w=768&ssl=1"},
+            {"Batik Simbut", "Motif batik Simbut berbentuk daun yang menyeruai daun talas. Motif tersebut merupakan motif yang paling sederhana, hanya menyusun dan merapikan satu jenis motif saja. Motif Simbut berasal dari suku Badui pedalaman di Sunda yang kental dengan peradaban lama. Namun, seiring dengan berjalannya waktu, para penduduk badui yang menerima modernitas mengembangkan batik ini di daerah pesisir Banten. Sehngga batik motif Simbut dikenal juga dengan batik Banten.", "https://i.pinimg.com/564x/d8/db/b4/d8dbb4e064da173d15d9ffb2c3ddceac.jpg"},
+            {"Batik Kawung", "Batik ini terinspirasi dari bentuk buah kolang kaling. Bentuk kolang kaling yang lonjong tersebut disusun empat sisi membentuk lingkaran. Motif Kuwung sering diidentikan dengan motif sepuluh sen kuno, karena bentuknya yang bulat dengan lubang ditengahnya. Motif ini berasal dan berkembang di Jawa Tengah dan Jogjakarta. Biasanya motifnya sama, hanya bedanya pada hiasan atau aksennya saja. Batik ini juga termasuk motif batik Indonesia yang paling banyak dipakai.", "https://cdn0-production-images-kly.akamaized.net/964QK-Nq4TrkJ6X2o0JGYFYJmak=/0x0/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2184692/original/066555600_1525760533-152576053360272batik-kawung.jpg"},
+            {"Batik Priyangan", "Motif batik Priyangan memiliki bentuk motif berupa tumbuhan. Bedanya dengan batik lain, tumbuhan yang digambar disusun rapi dan simetris. Sehingga, kesan elegan muncul dalam batik dari Tasik ini, baik dari segi kerapian maupun corak warnanya. Batik ini memunyai warna terang tetapi kalem dan tidak mencolok. Jadi batik dengan motif Priyangan ini pantas dikenakan dalam suasana dan acara apa pun.", "https://infobatik.id/wp-content/uploads/2018/05/664ddf9902074930ae87093d23fd504e.jpg"},
+            {"Batik Parang", "Parang berasal dari kata pereng atau miring. Bentuk motifnya berbentuk seperti huruf “S” miring berombak memanjang.Motif Parang ini tersebar di seluruh Jawa, mulai dari Jawa Tegah, Jogjakarta dan Jawa Barat. Biasanya, perbedaannya hanya terletak pada aksen dari batik Motif parang tersebut. Misalkan, di Jogja ada motif Parang Rusak dan Parang Barong, di Jawa Tengah ada Parang Slobog, serta di Jawa Barat ada Parang Klisik.", "https://infobatik.id/wp-content/uploads/2017/05/motif-batik-parang-barong.jpg"},
+            {"Batik Piring Sedapur", "Motif batik Pring Sedapur memiliki ciri khas yang simpel namun elegan. Motif yang dipakai adalah motif bambu, sehingga sering juga disebut sebagai batik Pring. Batik ini tidak hanya indah dalam kesederhanaan motifnya, tetapi memiliki filosofi yang sederhana pula. Dimana bambu memberikan makna ketentraman, keteduhan dan kerukunan. Selain itu, bambu/pring juga mempunyai filosofi mendalam bagi orang Jawa, yakni apa saja dalam diri kita haruslah memberikan manfaat bagi orang lain, sejak lahir sampai mati.", "https://i.pinimg.com/564x/3b/a7/82/3ba7826df355379b936cd6da83583b54.jpg"},
+            {"Batik Mega Mendung", "Motif batik Mega Mendung cukup sederhana namun memberi kesan mewah. Motif mendung di langit mega yang berwarna cerah inilah yang membuat batik Mega Mendung sangat cocok dipakai orang tua maupun anak muda, baik perempuan maupun laki-laki.", "https://cdn1-production-images-kly.akamaized.net/u_YTEMgxs3KqYN_MMp6JTb_Ar6w=/640x360/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/1007116/original/028577700_1443707050-Batik-Mega-Mendung.jpg"},
+            {"Batik Sogan", "Motif batik Sogan sudah ada sejak zaman nenek moyang orang Jawa beberapa abad lalu. Batik ini, didominasi oleh warna cokelat muda dan memiliko motif yang khas seperti, bunga dengan aksen titik-titk atau lengkungan garis. Dulunya, batik ini dipakai raja-raja di Jawa khususnya keraton kesultanan Solo. Namun, sekarang dapat dipakai oleh siapa saja, baik warga keraton maupun orang biasa.", "https://www.kanal247.com/images/media/photo/2017/08/16/5263_1.jpg"},
+            {"Batik Tujuh Rupa", "Motif batik tujuh rupa dari Pekalongan ini sangat kental dengan nuansa alam. Pada umumnya, batik Pekalongan menampilkan bentuk motif bergambar hewan atau tumbuhan. Motif-motif tersebut diambil dari berbagai campuran kebudayaan lokal dan etnis cina. Pasalnya, dulu Pekalongan adalah tempat transit para pedagang dari berbagai negara. Sehingga, akulturasi budaya itulah yang membuat batik Pekalongan sangat khas dengan alam, khususnya motif jlamprang, motif buketan, motif terang bulan, motif semen, motif pisan bali dan motif lung-lungan.", "https://infobatik.id/wp-content/uploads/2017/12/2-motif-batik-tujuh-rupa-1-750x425.jpg"},
+    };
+
+    public static ArrayList<Batik> getListData(){
+        ArrayList<Batik> list = new ArrayList<>();
+        for (String[] aData : data) {
+            Batik batik = new Batik();
+            batik.setTitle(aData[0]);
+            batik.setDescription(aData[1]);
+            batik.setPhoto(aData[2]);
+
+            list.add(batik);
+        }
+        return list;
+    }
+}

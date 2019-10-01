@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Nico\'s Submission</string>
+    <string name="nama_about">Nico Panjaitan</string>
+    <string name="email_about">nicogorgasorospanjaitan@gmail.com</string>
+    <string name="profile">profile</string>
+    <string name="nama_batik">Nama Batik</string>
+    <string name="description">description</string>
+</resources>
